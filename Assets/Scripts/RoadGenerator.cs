@@ -10,7 +10,7 @@ public class RoadGenerator : MonoBehaviour
     [Header("Generation")]
     [SerializeField] private Transform startPoint;
 
-    private const int SegmentCount = 100;
+    private const int SegmentCount = 10;
 
     // Текущая точка, откуда создаём следующий сегмент
     private Transform currentEnd;
