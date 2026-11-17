@@ -83,7 +83,7 @@ public class RoadGenerator : MonoBehaviour
 
         // Если уже 5 прямых подряд —
         // следующий обязательно поворот
-        if (straightCount >= 5)
+        if (straightCount >= 8)
         {
             return ChooseTurn();
         }
